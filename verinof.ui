@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Verinof</class>
+ <widget class="QDialog" name="Verinof">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Minecraft Info</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="Ver">
+     <property name="text">
+      <string>版本</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>类型</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="Time">
+     <property name="text">
+      <string>发布时间</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="Server">
+     <property name="text">
+      <string>下载服务端</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="down">
+     <property name="text">
+      <string>下载客户端</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
